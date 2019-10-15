@@ -12,3 +12,12 @@ When to use / avoid Recursion?
 
 --When to avoid Recursion:
 - If the response to any of the above statements is NO, we should not go with recursion.
+
+
+Practical use of Recursion:
+- Stack
+- Tree - traversal/searching/insertion/deletion
+- Sorting - quick sort, merge sort
+- Divide and Conquer
+- Dynamic Programming
+- etc..
