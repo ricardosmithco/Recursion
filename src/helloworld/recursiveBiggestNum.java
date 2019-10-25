@@ -2,6 +2,7 @@ package helloworld;
 
 public class recursiveBiggestNum {
 	static int biggest = Integer.MIN_VALUE;
+	static int z = 0;;
 	
 	// i have not completed this !!!!
 	
@@ -12,6 +13,7 @@ public class recursiveBiggestNum {
 		
 		System.out.println(findMax(a));
 		System.out.println(recursiveMax(a, x));
+		System.out.println(reversedRecursiveMax(a,z));
 		
 	}
 	
@@ -36,6 +38,20 @@ public class recursiveBiggestNum {
 		 }
 		 return recursiveMax(arr, (x-1));
 	 }
+	 
+	 public static int reversedRecursiveMax(int arr[], int z) { 
+		 
+		 if(z == arr.length) {
+			 return biggest;
+		 }else if(arr[z] > biggest) {
+			 biggest = arr[z];
+		 }
+		 return reversedRecursiveMax(arr, z+1);
+		 
+		 
+	 }
+	 
+	 
 	
 
 }
