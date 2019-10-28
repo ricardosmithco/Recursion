@@ -4,6 +4,8 @@ public class recursiveBiggestNum {
 	static int biggest = Integer.MIN_VALUE;		// static variables to be used in this entire class.
 	static int z = 0;;
 	
+	// An array is a collection of a singular data type, whose structure is indexed and contiguous in memory.
+	
 	
 	public static void main(String [] args) {
 		
